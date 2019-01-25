@@ -128,7 +128,7 @@
                 <formatter>
                     <named-formatter name="xfes"/>
                 </formatter>
-                <file path="/var/log/jboss/server.log"/>
+                <file path="/var/tmp/server.log"/>
             </file-handler>
             <formatter name="xfes">
                     <pattern-formatter pattern="%d{yyyy/MM/dd HH時mm分ss秒} %-5p [xfes] ${podname} [%t] %s%e%n"/>
